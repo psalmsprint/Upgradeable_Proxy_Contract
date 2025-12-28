@@ -1,0 +1,16 @@
+.PHONY: help build test clean
+
+help:
+	@echo "Available commands:"
+	@echo "  make build   - build the project"
+	@echo "  make test    - run tests"
+	@echo "  make clean   - clean generated artifacts"
+
+build:
+	@echo "Building contracts..."
+
+test:
+	@echo "Running tests..."
+
+clean:
+	@echo "Cleaning build artifacts..."
