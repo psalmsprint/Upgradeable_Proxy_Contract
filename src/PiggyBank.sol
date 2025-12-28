@@ -4,13 +4,14 @@ pragma solidity ^0.8.30;
 
 import {ReentrancyGuard} from "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
-/*
-* @title PiggyBank
-* @author 0xNicos
-* @dev 
-* @nottice do  not use for production ensure its audited and battle tested.
-*/
-
+/**
+ * @title PiggyBank
+ * @author 0xNicos
+ * @notice A simple piggy bank contract intended for learning and experimentation.
+ * @dev This contract is not production-ready. It has not been audited and may
+ * contain security vulnerabilities or incomplete edge-case handling.
+ * Do not deploy to mainnet or use with real funds.
+ */
 contract PiggyBank is ReentrancyGuard {
     //_______________
     // Errors
